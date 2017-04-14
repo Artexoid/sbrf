@@ -1,0 +1,25 @@
+{
+    "name": "artexoid/sbrf",
+    "description": "Simple library to work with the sberbank payment REST API",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "mrclay/jsmin-php": "^2.3"
+    },
+    "require-dev": {
+        "monolog/monolog": "^1.19",
+        "phpunit/phpunit": "5.3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem Goncharuk",
+            "email": "artexoid@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "QFive\\artexoid\\SBRF\\": "src/"
+        },
+        "files": ["src/functions_include.php"]
+    }
+}

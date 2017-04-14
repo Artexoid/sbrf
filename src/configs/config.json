@@ -1,0 +1,23 @@
+{
+  //Url для REST запросов
+  "baseUrl" :"",
+
+  //имя пользователя
+  "userName" :"",
+
+  //пароль пользователя
+  "password" :"",
+
+  //валюта
+  "currency" :"RUB",
+
+  //язык
+  "language" :"ru",
+
+  //режим отображения
+  "pageView" :"DESKTOP",
+
+  "timeout": 30,
+
+  "successURL" : ""
+}
